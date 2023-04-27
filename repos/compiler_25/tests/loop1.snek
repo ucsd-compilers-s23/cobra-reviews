@@ -1,0 +1,13 @@
+(let ( (sum 0) (n 5) )
+    (loop 
+        (
+            (if (<= n 0) 
+                    (break sum)
+                    (block 
+                        (set! sum (+ sum n))
+                        (set! n (sub1 n))
+                    )
+            )
+        )   
+    )
+)

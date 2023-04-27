@@ -1,0 +1,1 @@
+(if input (+ 1 false) (add1 0))

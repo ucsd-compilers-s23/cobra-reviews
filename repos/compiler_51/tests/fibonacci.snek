@@ -1,0 +1,22 @@
+(
+    let
+    ((a 0) (b 1) (n 1))
+    (
+        loop
+        (
+            if
+            (>= n input)
+            (break b)
+            (
+                let
+                ((tmp b))
+                (
+                    block
+                    (set! b (+ a b))
+                    (set! a tmp)
+                    (set! n (add1 n))
+                )
+            )
+        )
+    )
+)

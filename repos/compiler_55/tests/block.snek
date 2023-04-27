@@ -1,0 +1,7 @@
+(let
+  ((x 0))
+  (block
+      (set! x (+ x 99))
+      (set! x (* x 5))
+  )
+)

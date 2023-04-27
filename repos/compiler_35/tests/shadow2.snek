@@ -1,0 +1,4 @@
+(let ((x 5) (z 5)) (
+    + (let ((x 0) (z z)) ( let ((x false)) (if (isbool x) z x) ))  (+ x z)
+)  
+)

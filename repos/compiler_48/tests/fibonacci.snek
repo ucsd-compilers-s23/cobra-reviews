@@ -1,0 +1,18 @@
+(let ((i 1) (v1 0) (v2 1)) 
+    (if (<= input 0) v1
+        (loop
+            (if (= i input) 
+                (break v2)
+                (block
+                    (set! i (add1 i))
+                    (let ((tmp v2)) 
+                        (block
+                            (set! v2 (+ v1 v2))
+                            (set! v1 tmp)
+                        )
+                    )
+                )
+            )
+        )
+    )
+)

@@ -1,0 +1,1 @@
+(- (* (sub1 (sub1 (sub1 -84))) (* (sub1 (let ((d 0) (p d) (t p) (h t) (w t)) h)) (add1 (sub1 -39)))) (* (let ((b 50) (c b)) c) (let ((x (sub1 (+ 83 64))) (c (sub1 (add1 x)))) (+ (let ((g -36) (l x) (c l) (b g)) c) (+ c -99)))))

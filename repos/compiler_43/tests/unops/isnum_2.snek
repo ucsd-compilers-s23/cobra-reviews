@@ -1,0 +1,1 @@
+(isnum (add1 (sub1 7)))

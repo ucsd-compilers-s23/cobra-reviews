@@ -1,0 +1,12 @@
+(loop
+    (break
+        (loop
+            (block
+                3
+                2
+                1
+                (break 0)
+            )
+        )
+    )
+)

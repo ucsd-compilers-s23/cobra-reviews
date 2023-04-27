@@ -1,0 +1,7 @@
+(let ((x input))
+    (if (isbool (set! x input)) (set! x (if x false true)) (set! x (* x input)))
+)
+; (output true)
+; ((input true) (output false))
+; ((input 5) (output 25))
+; ((input -5) (output 25))

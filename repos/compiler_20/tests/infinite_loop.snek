@@ -1,0 +1,11 @@
+(let
+  ((i 2))
+  (loop
+    (if (< i input)
+      (break i)
+      (block
+        (set! i (* i i))
+      )
+    )
+  )
+)

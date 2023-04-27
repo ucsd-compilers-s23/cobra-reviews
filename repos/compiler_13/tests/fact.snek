@@ -1,0 +1,8 @@
+(let ((acc 1) (v input))
+  (loop (block
+    (if (<= v 1)
+        (break acc)
+        (block
+          (set! x (* x v))
+          (set! v (sub1 v))))))
+)

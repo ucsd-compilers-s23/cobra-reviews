@@ -1,0 +1,11 @@
+(let
+  ((x 0) (acc 0))
+  (loop
+      (if (= x input) (break acc)
+        (block
+          (set! x (add1 x))
+          (set! acc (+ acc x))
+        )
+      )
+  )
+)

@@ -1,0 +1,1 @@
+(+ (* 1000 (if (isnum input) 1 0)) (if (isbool input) 1 0))

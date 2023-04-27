@@ -1,0 +1,1 @@
+(if (<= input 234) (+ input 1000) (- false 3))

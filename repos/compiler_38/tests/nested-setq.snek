@@ -1,0 +1,3 @@
+(let ((a 1) (b 1) (c 1)) (block
+    (set! a (set! b (set! c 3)))
+    (+ a (+ b c))))

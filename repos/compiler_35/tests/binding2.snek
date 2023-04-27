@@ -1,0 +1,8 @@
+(let ((x 5)) 
+            (block
+                (let ( (z (set! x 4)) (x 1) )
+                (+ x 4)
+                )
+                (add1 x)
+            )
+)

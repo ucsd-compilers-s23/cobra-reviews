@@ -1,0 +1,2 @@
+(let ((input 1)) 6)
+; (static keyword)

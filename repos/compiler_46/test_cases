@@ -1,0 +1,7 @@
+- check for overflow with 64 bit integers "overflow"
+- equality types differ, "invalid argument"
+- any operator other than = on booleans, "invalid argument"
+- duplicate bindings in the same list "Duplicate binding"
+- unbound variables, return "Unbound variable identifier {identifier}" 
+- break appears outside loop, return break error
+- var name is reserved, return keyword error

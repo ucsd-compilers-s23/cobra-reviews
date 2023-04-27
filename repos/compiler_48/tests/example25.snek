@@ -1,0 +1,18 @@
+(if (isbool input) input
+    (if (< input 0)
+        (let ((x 0))
+            (loop
+                (if (= x input) (break (+ input x))
+                    (set! x (sub1 x))
+                )
+            )
+        )
+        (let ((x 0))
+            (loop
+                (if (= x input) (break (+ input x))
+                    (set! x (add1 x))
+                )
+            )
+        )
+    )
+)

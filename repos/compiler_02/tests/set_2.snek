@@ -1,0 +1,2 @@
+(let ((x (block 2))) x)
+; (output 2)

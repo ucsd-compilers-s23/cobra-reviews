@@ -1,0 +1,3 @@
+(let ((i 0) (n 0)) (loop (block
+    (set! n (+ n i))
+    (if (>= i 10) (break n) (set! i (add1 i))))))

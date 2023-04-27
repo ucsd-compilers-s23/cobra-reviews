@@ -1,0 +1,6 @@
+(let ((x 5) (z 
+    (block
+        (set! x 10)
+        (let ((x 100)) x)
+    )
+)) x)

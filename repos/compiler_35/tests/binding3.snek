@@ -1,0 +1,11 @@
+(let (
+        (x 5) 
+        (z  ( block
+                    (let ( (z (set! x 10)) (x 1) )
+                        (set! x 100)
+                    )
+                    (let ((z x))  (set! x z) )
+                ) 
+        )
+    ) (let ((x input)) (set! x false) )
+    )

@@ -1,0 +1,14 @@
+(let ((x 3) (y 5))
+    (loop 
+        (let ((x (+ y (* y x))))
+            (block
+                (set! x (+ 4 x))
+                (if (< (set! y (sub1 y)) 0)
+                    (break x)
+                    y
+                )
+            )
+        )
+    )
+)
+; (output 4)

@@ -1,0 +1,5 @@
+(= true input)
+; (output false)
+; ((input 3) (dynamic invalid))
+; ((input true) (output true))
+; ((input false) (output false))

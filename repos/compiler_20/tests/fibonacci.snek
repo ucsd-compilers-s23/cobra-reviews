@@ -1,0 +1,14 @@
+(let
+  ((i 1) (acc 0) (p 1) (pp 0))
+  (loop
+    (if (>= i input)
+      (break acc)
+      (block
+        (set! pp p)
+        (set! p acc)
+        (set! acc (+ pp p))
+        (set! i (add1 i))
+      )
+    )
+  )
+)

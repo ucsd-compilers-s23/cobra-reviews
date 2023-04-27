@@ -1,0 +1,1 @@
+(add1 (add1 (let ((v (- -93 (add1 (add1 43))))) (add1 (- (add1 (* (sub1 94) (let ((k v) (i -3) (e -9) (g i)) 86))) (* v v))))))

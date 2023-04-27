@@ -1,0 +1,2 @@
+(let () (+ 2 3))
+; (static Invalid)

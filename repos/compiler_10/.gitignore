@@ -1,0 +1,7 @@
+/target
+*.a
+*.o
+*.run
+*.s
+Cargo.lock
+.vscode

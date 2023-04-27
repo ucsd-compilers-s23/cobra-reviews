@@ -1,0 +1,5 @@
+(let ((acc 1) (i input)) (loop
+    (if (= i 0) (break acc) (block 
+        (set! acc (* acc i))
+        (set! i (sub1 i))
+    ))))

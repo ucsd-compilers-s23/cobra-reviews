@@ -1,0 +1,4 @@
+(* input 2)
+; ((input 2) (output 4))
+; ((input 2305843009213693951) (output 4611686018427387902))
+; ((input 2305843009213693952) (dynamic overflow))
