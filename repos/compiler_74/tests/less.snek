@@ -1,0 +1,6 @@
+(let ((a 0) (i input))
+    (if (< i a)
+        (block 1 2 3)
+        4
+    )
+)
