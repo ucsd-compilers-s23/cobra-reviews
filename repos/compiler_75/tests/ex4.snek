@@ -1,0 +1,13 @@
+(let
+  ((i 1) (acc 1))
+  (loop
+    (if (> i 3)
+      (break acc)
+      (block
+        (set! acc (* acc 10))
+        (set! acc (* acc 10))
+        (set! i (add1 i))
+      )
+    )
+  )
+)
